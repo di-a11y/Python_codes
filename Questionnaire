@@ -1,0 +1,110 @@
+Q=["what is the capital of Switzerland","When did india get indepenance","Which of the following is an isotope of Hydrogen","which of the following chemical element has highest number of isotopes","What is study of tissues called","which is the world's largest twin lane tunnel"]
+opt1=["Zurich","Bern","Geneva","Basel"]
+opt2=["15th august 1947","26th january 1947","22nd september 1949","2nd february 1949"]
+opt3=["Proton","Strontium","Megatrium","Deuterium"]
+opt4=["caesium","Gold","Chromium","carbon"]
+opt5=["chromatology","Theology","Genealogy","Histology"]
+opt6=["Laerdal tunnel","Sela tunnel","Gotthard Base tunnel","Yamate tunnel"]
+Money=0
+print("***************************WELCOME TO KAUN BANEGA CROREPATI********************************")
+
+print("Question 1",Q[0])
+print("A",opt1[0])
+print("B",opt1[1])
+print("C",opt1[2])
+print("D",opt1[3])
+A=input("Enter the option:")
+if A=="B":
+    print("Correct answer")
+    Money=Money+1000
+else:
+    print("Wrong answer")
+    print("Money rewarded is ",Money)
+
+print("---------------------------------------------------------------------------------")   
+
+if Money>0:
+    print("Question 2",Q[1])
+    print("A",opt2[0])
+    print("B",opt2[1])
+    print("C",opt2[2])
+    print("D",opt2[3])
+    B=input("Enter the option:")
+    if B=="A":
+        print("Correct answer")
+        Money=Money+5000
+    else:
+        print("Wrong answer")
+        print("Money rewarded is ",Money)
+
+print("---------------------------------------------------------------------------------")        
+
+if Money>5000:
+    print("Question 3",Q[2])
+    print("A",opt3[0])
+    print("B",opt3[1])
+    print("C",opt3[2])
+    print("D",opt3[3])
+    C=input("Enter the option:")
+    if C=="D":
+        print("Correct answer")
+        Money=Money+10000
+    else:
+        print("Wrong answer")
+        print("Money rewarded is ",Money)
+
+print("---------------------------------------------------------------------------------")
+ 
+if Money>10000:
+    print("Question 4",Q[3])
+    print("A",opt4[0])
+    print("B",opt4[1])
+    print("C",opt4[2])
+    print("D",opt4[3])
+    D=input("Enter the option:")
+    if  D=="A":
+        print("Correct answer")
+        Money=Money+20000
+    else:
+        print("Wrong answer")
+        print("Money rewarded is ",Money)
+
+print("---------------------------------------------------------------------------------")
+ 
+if Money>20000:
+    print("Question 5",Q[4])
+    print("A",opt5[0])
+    print("B",opt5[1])
+    print("C",opt5[2])
+    print("D",opt5[3])
+    E=input("Enter the option:")
+    if E=="D":
+        print("Correct answer")
+        Money=Money+40000
+    else:
+        print("Wrong answer")
+        print("money rewarded is ",Money)
+print("---------------------------------------------------------------------------------")
+
+if Money>40000:
+    print("Question 6",Q[5])
+    print("A",opt6[0])
+    print("B",opt6[1])
+    print("C",opt6[2])
+    print("D",opt6[3])
+    F=input("Enter the option:")
+    if F=="B":
+        print("Correct answer")
+        Money=Money+80000
+    else:
+        print("Wrong answer")
+        print("Money rewarded is ",Money)
+
+print("---------------------------------------------------------------------------------")
+        
+if Money>80000:
+    print("Congratulation you have got all the correct answers")
+    print("prize money rewarded is ",Money)
+    
+
+print("*******************THE END*********************")    
